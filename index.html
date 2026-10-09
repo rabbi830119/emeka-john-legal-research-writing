@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Emeka John | Legal Writing & Research</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F2F5F1;--ink:#10231C;--muted:#4E6258;--green:#1F5C45;--brass:#A97A1E;--line:#D3DBD4;--panel:#FFFFFF;--onGreen:#F2F5F1;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1A16;--ink:#E8EFEA;--muted:#9DB0A6;--green:#4FAE86;--brass:#D9A93F;--line:#26382F;--panel:#16251F;--onGreen:#0F1A16}}
+:root[data-theme="dark"]{--bg:#0F1A16;--ink:#E8EFEA;--muted:#9DB0A6;--green:#4FAE86;--brass:#D9A93F;--line:#26382F;--panel:#16251F;--onGreen:#0F1A16}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Work Sans",system-ui,sans-serif;line-height:1.6;font-size:17px}
+h1,h2,h3{font-family:"Newsreader",Georgia,serif;line-height:1.15;margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--brass);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+header{padding:20px 0;border-bottom:1px solid var(--line)}
+header .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.brand{font-family:"Newsreader",Georgia,serif;font-weight:700;font-size:1.25rem;text-decoration:none}
+nav a{margin-left:18px;text-decoration:none;color:var(--muted);font-weight:500;font-size:.95rem}
+nav a:hover{color:var(--ink)}
+.hero{padding:64px 0 56px;display:grid;grid-template-columns:1.2fr .8fr;gap:48px;align-items:center}
+.hero h1{font-size:clamp(2.2rem,5.6vw,3.7rem);font-weight:700;letter-spacing:-.01em}
+.hero p.lead{font-size:1.15rem;color:var(--muted);max-width:34em;margin:20px 0 28px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 22px;border-radius:6px;font-weight:600;text-decoration:none;border:2px solid var(--green)}
+.btn.primary{background:var(--green);color:var(--onGreen)}
+.btn.ghost{color:var(--green)}
+.slip{background:var(--panel);border:1px solid var(--line);border-top:5px solid var(--brass);border-radius:4px;padding:22px}
+.slip h3{font-size:1.1rem;margin-bottom:12px}
+.slip dl{margin:0}
+.slip div{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px dashed var(--line)}
+.slip div:last-child{border:0;font-weight:600}
+.slip dt{color:var(--muted)}
+.slip dd{margin:0;text-align:right}
+section{padding:56px 0;border-top:1px solid var(--line)}
+section h2{font-size:clamp(1.7rem,3.6vw,2.3rem);margin-bottom:10px}
+section p.sub{color:var(--muted);max-width:38em;margin:0 0 32px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:22px}
+.card h3{font-size:1.3rem;margin-bottom:8px}
+.card p{margin:0 0 14px;color:var(--muted)}
+.price{font-weight:600;color:var(--green)}
+.steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;gap:14px;max-width:40em}
+.steps li{counter-increment:s;padding-left:46px;position:relative}
+.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:32px;height:32px;border-radius:50%;background:var(--green);color:var(--onGreen);display:grid;place-items:center;font-weight:600}
+.sample{background:var(--panel);border-left:4px solid var(--brass);padding:20px 22px;font-family:"Newsreader",Georgia,serif;font-size:1.1rem;line-height:1.7;max-width:42em}
+.sample summary{cursor:pointer;margin-bottom:10px}.sample p{margin:0 0 12px}.sample small{display:block;margin-top:12px;font-family:"Work Sans",sans-serif;font-size:.85rem;color:var(--muted)}
+.contact{background:var(--green);color:var(--onGreen);border-radius:6px;padding:36px 28px}
+.contact h2{margin-bottom:10px}
+.contact .btn{border-color:var(--onGreen);color:var(--onGreen)}
+.contact .btn.primary{background:var(--onGreen);color:var(--green)}
+footer{padding:30px 0 40px;color:var(--muted);font-size:.88rem;border-top:1px solid var(--line)}
+@media (max-width:760px){.hero{grid-template-columns:1fr;padding-top:40px;gap:32px}nav a{margin:0 14px 0 0}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<a class="brand" href="#top">Emeka John</a>
+<nav aria-label="Main"><a href="#services">Services</a><a href="#process">How it works</a><a href="#sample">Samples</a><a href="#payment">Payment</a><a href="#contact">Contact</a></nav>
+</div></header>
+
+<main id="top">
+<div class="wrap hero">
+<div>
+<h1>Clear legal writing and research, delivered on time.</h1>
+<p class="lead">I write articles, summarise cases and contracts, and edit documents for law firms, startups and legal blogs. Based in Nigeria, working with clients worldwide.</p>
+<div class="btns"><a class="btn primary" href="#contact">Request a quote</a><a class="btn ghost" href="#services">See services and prices</a></div>
+</div>
+<aside class="slip" aria-label="Example order">
+<h3>Example order</h3>
+<dl>
+<div><dt>Service</dt><dd>Legal blog article</dd></div>
+<div><dt>Length</dt><dd>1,000 words</dd></div>
+<div><dt>Delivery</dt><dd>3 days</dd></div>
+<div><dt>Revisions</dt><dd>1 round included</dd></div>
+<div><dt>Price</dt><dd>from $30</dd></div>
+</dl>
+</aside>
+</div>
+
+<div class="wrap">
+<section id="services">
+<h2>Services and prices</h2>
+<p class="sub">Prices are in US dollars. Send me your brief and I confirm the exact price before any work starts.</p>
+<div class="grid">
+<article class="card"><h3>Legal content writing</h3><p>Blog posts, guides and website copy that explain legal topics in plain language.</p><span class="price">From $30 per 1,000 words</span></article>
+<article class="card"><h3>Legal research summaries</h3><p>Case summaries, statute overviews and short research briefs, with sources listed.</p><span class="price">From $40 per summary</span></article>
+<article class="card"><h3>Contract summaries</h3><p>A contract turned into a one-page summary of key terms, dates and obligations.</p><span class="price">From $35 per document</span></article>
+<article class="card"><h3>Proofreading and editing</h3><p>Grammar, clarity and structure for dissertations, reports and business documents.</p><span class="price">From $12 per 1,000 words</span></article>
+</div>
+</section>
+
+<section id="process">
+<h2>How it works</h2>
+<p class="sub">Simple, and you always know what happens next.</p>
+<ol class="steps">
+<li><strong>Send your brief.</strong> Tell me the topic, word count, audience and deadline.</li>
+<li><strong>Get a quote.</strong> I reply within 24 hours with the price and delivery date.</li>
+<li><strong>Pay and I start.</strong> Small jobs are paid upfront. Larger jobs can be split into two payments.</li>
+<li><strong>Receive your work.</strong> One round of revisions is included.</li>
+</ol>
+</section>
+
+<section id="sample">
+<h2>Writing samples</h2>
+<p class="sub">Two short examples of how I write and summarise. Tap to open.</p>
+<details class="sample" open><summary><strong>Article excerpt: What is a non-disclosure agreement?</strong></summary>
+<p>A non-disclosure agreement, or NDA, is a contract that keeps shared information private. Businesses use it when they need to show sensitive material to someone else, such as a supplier, an investor or a new employee, without risking that it spreads.</p>
+<p>A good NDA answers four questions. What counts as confidential? Who may see it? How long must it stay secret? And what happens if someone breaks the promise? If any of these is left vague, the agreement is harder to rely on.</p>
+<p>Watch for two common problems. The first is a definition of "confidential information" so broad that it covers everything, including facts already public. The second is no end date. Most NDAs work best with a clear period, often two to five years, and a way to return or destroy the information afterwards.</p>
+<small>Sample piece, around 1,000 words when delivered in full. General information only, not legal advice.</small></details>
+<details class="sample" style="margin-top:14px"><summary><strong>Contract summary: one-page example</strong></summary>
+<p><strong>Document:</strong> Equipment Rental Agreement (sample). <strong>Parties:</strong> Lessor and Lessee.</p>
+<p><strong>Term:</strong> 12 months from the start date, renewable by written agreement. <strong>Payment:</strong> monthly rent due on the 5th, with a late fee after 7 days.</p>
+<p><strong>Key obligations:</strong> the Lessee keeps the equipment in good condition and reports damage within 48 hours. The Lessor handles major repairs.</p>
+<p><strong>Ending the contract:</strong> either side may end it with 30 days' written notice. <strong>Risks to check:</strong> the late fee rate and who pays for damage not caused by normal use.</p>
+<small>Fictional example showing the format you receive.</small></details>
+</section>
+
+<section id="payment">
+<h2>Payment</h2>
+<p class="sub" style="margin:0">After you accept my quote, I send a secure payment link or payment details. Small jobs are paid upfront. Larger projects can be split into two payments, one to start and one on delivery. I send a receipt for every payment.</p>
+</section>
+
+<section id="about">
+<h2>About me</h2>
+<p class="sub" style="margin:0">I'm a Nigerian law graduate with strong research and drafting skills. I focus on accurate, readable work, and I tell you early if a deadline or scope is not realistic.</p>
+</section>
+
+<section id="contact" style="border:0;padding-top:24px">
+<div class="contact">
+<h2>Let's talk about your project</h2>
+<p style="margin:0 0 22px;max-width:36em">Send the topic, word count and deadline. You get a reply with a price within 24 hours. Phone and WhatsApp: 0803 224 0119.</p>
+<div class="btns">
+<a class="btn primary" href="mailto:nnaukwuemekajohn08@gmail.com?subject=Quote%20request">Email me</a>
+<a class="btn" href="https://wa.me/2348032240119?text=Hi%2C%20I%20need%20a%20quote%20for%20a%20writing%20project">WhatsApp me</a>
+<a class="btn" href="https://www.linkedin.com/in/nnaukwu-emeka-john-6aaa4b250" target="_blank" rel="noopener">LinkedIn profile</a>
+<a class="btn" href="https://www.upwork.com/freelancers/~017197d857ed2910d8" target="_blank" rel="noopener">Upwork profile</a>
+</div>
+</div>
+</section>
+</div>
+</main>
+
+<footer><div class="wrap">
+Emeka John, legal writing and research. This site offers writing, research and editing services only. Nothing here is legal advice, and no lawyer-client relationship is created.
+</div></footer>
+</body>
+</html>
